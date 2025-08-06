@@ -63,6 +63,33 @@ nav a:hover {
   opacity: 0.8;
 }
 
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  nav {
+    display: none;
+    width: 100%;
+  }
+  nav.open {
+    display: block;
+  }
+  nav ul {
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+  }
+  .menu-toggle {
+    display: block;
+  }
+}
+
 /* Hero */
 .hero {
   background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
