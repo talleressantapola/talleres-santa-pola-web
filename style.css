@@ -98,6 +98,14 @@ nav a:hover {
   background: #e65c00;
 }
 
+.btn-whatsapp {
+  background: #25D366;
+}
+
+.btn-whatsapp:hover {
+  background: #25D366;
+}
+
 /* About section */
 .about {
   padding: 3rem 0;
