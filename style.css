@@ -10,6 +10,15 @@ body {
   color: #333;
   line-height: 1.6;
 }
+body.private {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: var(--background-color);
+  text-align: center;
+}
+
 
 :root {
   --primary-color: #0d47a1;
