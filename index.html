@@ -25,7 +25,8 @@
     </div>
   </header>
 
-  <section id="inicio" class="hero">
+  <!-- Imagen de fondo generada con IA (añadir hero-image.jpg en /images) -->
+  <section id="inicio" class="hero" style="background-image: url('images/hero-image.jpg'); background-size: cover; background-position: center;">
     <div class="container">
       <h1>Mecánica integral de confianza en Santa Pola</h1>
       <p>Especialistas en mantenimiento y reparación de vehículos. Servicio profesional y cercano.</p>
@@ -44,27 +45,33 @@
     <div class="container">
       <h2>Servicios</h2>
       <div class="services-grid">
-        <div class="service-card"><i class="fas fa-tools"></i>
+        <div class="service-card">
+          <img src="images/servicio-mantenimiento.jpg" alt="Mantenimiento preventivo" class="service-img" />
           <h3>Mantenimiento preventivo</h3>
           <p>Revisiones de aceite, filtros y neumáticos para evitar averías.</p>
         </div>
-        <div class="service-card"><i class="fas fa-cogs"></i>
+        <div class="service-card">
+          <img src="images/servicio-reparacion.jpg" alt="Reparaciones mecánicas" class="service-img" />
           <h3>Reparaciones mecánicas</h3>
           <p>Diagnóstico y reparación de motor, transmisión y embrague.</p>
         </div>
-        <div class="service-card"><i class="fas fa-microchip"></i>
+        <div class="service-card">
+          <img src="images/servicio-electronico.jpg" alt="Diagnóstico electrónico" class="service-img" />
           <h3>Diagnóstico electrónico</h3>
           <p>Identificación de fallos eléctricos con tecnología moderna.</p>
         </div>
-        <div class="service-card"><i class="fas fa-car-crash"></i>
+        <div class="service-card">
+          <img src="images/servicio-frenos.jpg" alt="Frenos y suspensión" class="service-img" />
           <h3>Frenos y suspensión</h3>
           <p>Mantenimiento de frenos, amortiguadores y suspensión.</p>
         </div>
-        <div class="service-card"><i class="fas fa-fan"></i>
+        <div class="service-card">
+          <img src="images/servicio-clima.jpg" alt="Climatización" class="service-img" />
           <h3>Climatización</h3>
           <p>Revisión y recarga de sistemas de aire acondicionado.</p>
         </div>
-        <div class="service-card"><i class="fas fa-check-circle"></i>
+        <div class="service-card">
+          <img src="images/servicio-itv.jpg" alt="Revisiones Pre-ITV" class="service-img" />
           <h3>Revisiones Pre‑ITV</h3>
           <p>Revisión completa para superar la ITV sin sorpresas.</p>
         </div>
@@ -110,7 +117,10 @@
         <a href="https://wa.me/34627926472" class="btn-primary whatsapp" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
       </div>
 
-      <p>Consulta nuestras <a href="https://www.google.com/maps/place/TALLERES+SANTA+POLA+SL" target="_blank">reseñas en Google</a>.</p>
+      <!-- Enlace actualizado con Place ID -->
+      <p>
+        Consulta nuestras <a href="https://search.google.com/local/writereview?placeid=ChIJcxF1gYVNYg0RD5B3053037A" target="_blank">reseñas en Google</a>.
+      </p>
 
       <div class="map-responsive">
         <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=-0.5689388%2C38.1938776%2C-0.5589388%2C38.2008776&amp;layer=mapnik&amp;marker=38.1973776%2C-0.5639388" loading="lazy"></iframe>
@@ -135,4 +145,3 @@
   <script src="script.js"></script>
 </body>
 </html>
-
